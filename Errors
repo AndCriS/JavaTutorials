@@ -1,0 +1,14 @@
+public class ErrorsCompileOrRuntime {
+	public static void main (String[]args){
+				
+		// Errors
+		// System.ouch.println(3 + 4 * 5); = compile-time error (syntax error). It doesn't compile
+		// System.out.println("Hello, wordl" or 1 / 0); = run-time error (logic error). It compiles but it gives a run-time error.
+		// Exception in thread "main" java.lang.ArithmeticException: / by zero at lesson1introduction.Systemoutprintln.main(Systemoutprintln.java:9) >> Exception report
+		// System.out.println(1 / 0);  run-time error
+		// System.out.println(Hello world);  syntax-error. "Hello" and "world" are not variables and have no value. Java doesn't know what's their meaning
+		
+		System.out.print("My favourite number is ");
+		System.out.println(3 + 4 + 5);
+	}	
+}
